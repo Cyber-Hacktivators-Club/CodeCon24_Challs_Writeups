@@ -1,0 +1,4 @@
+name: "Gumshuda Khazana"
+author: "0M3r"
+category: forensics
+description: "A critical hard drive containing sensitive company data has become severely corrupted, possibly due to malware or a failed data wipe attempt. No regular file recovery tools seem to work. Can you recover this sensitive data and identify the malware used in this attack?.\n\n Download the Image file : https://www.mediafire.com/file/dbuwl9zbdpts6lr/image_file.7z/file \n\nFlag Format: CCC{Poets_Name+Virus_Name}\n\n__Author__: 0M3r"
