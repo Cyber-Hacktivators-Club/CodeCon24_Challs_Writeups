@@ -1,5 +1,8 @@
 # Paisa recover - writeup
 
+first unpack the binary with 
+  `upx -d bank`
+
 In this challenge we need to transfer money to a specific account to get the flag.
 
 ## bypass the password
