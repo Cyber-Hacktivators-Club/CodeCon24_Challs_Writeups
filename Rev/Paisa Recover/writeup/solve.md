@@ -12,7 +12,7 @@ In this challenge we need to transfer money to a specific account to get the fla
 4. since some ppl were having trouble with this part, there is another approach, add a breakpoint before the validatePassword fucntion and jump to the point after it. but youll have to be careful since a part of the falg gets created right after the passwd validation function.
 ![passwd_dis](./images/passwd_dis.png)
 ![passwd_brk](./images/passwd_brk.png)
-![passwd_jmp](./images/passwd_jmp.png)
+![passwd_jmp](./images/psswd_jmp.png)
 
 ## Accessing the transaction fucntion
 1. After entering the passwd we are shown a menu, if goto bank and send money it shows us the following message.
