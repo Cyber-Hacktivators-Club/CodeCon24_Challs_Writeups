@@ -11,6 +11,9 @@ In this challenge we need to transfer money to a specific account to get the fla
 
 ![passwd check](./images/pass_check.png)
 
+validatePassword function:
+![passwd check](./images/passwdchk.png)
+
 3. so we need to make a password which fills this criteria, we can do this either manually or through a script. I did it manually and came up with this passwd "s22u222422222222222L", though the original passwd was "s3cur3p4sswd"
 ![passwd](./images/passwd.png)
 
