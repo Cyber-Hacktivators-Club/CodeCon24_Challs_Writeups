@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile of {{ username }}</h1>
+        <div class="profile-info">
+            <img src="{{ profile_url }}" alt="Profile Picture" class="profile-pic">
+            <h2>Profile URL: <a href="{{ profile_url }}" target="_blank">{{ profile_url }}</a></h2>
+        </div>
+        <form action="{{ url_for('profile') }}" method="post">
+            <div class="input-group">
+                <label for="profile_url">Update Profile Picture URL</label>
+                <input type="url" id="profile_url" name="profile_url" placeholder="Enter new profile picture URL" required>
+            </div>
+            <button type="submit">Update</button>
+        </form>
+        
+    </div>
+</body>
+</html>
